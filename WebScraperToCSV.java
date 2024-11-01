@@ -14,7 +14,7 @@ public class WebScraperToCSV {
     public static void main(String[] args) {
     	
         String url = "https://mamaearth.in/product-category/perfume?utm_source=google&utm_medium=cpc&utm_term=&gad_source=1&gclid=CjwKCAjw-JG5BhBZEiwAt7JR632GLVBJdrAjGb2CF5uX6Vhdl1OjPx3gwIXT_iUkZ_9ZzIh23dluVxoC44sQAvD_BwE";
-        String csvFile = "mamaearth_products1.csv";
+        String csvFile = "mamaearth_products.csv";
 
         List<String[]> data = new ArrayList<>();
 
